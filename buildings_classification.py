@@ -88,7 +88,7 @@ CATEGORY_COLORS = {
     "Industrial/Storage": "#bcbd22",
     "Infrastructure":     "#17becf",
     "Military":           "#6b6b6b",
-    "Other":              "#cccccccd",
+    "Other":              "#959595",
 }
 
 # -----------------------------------------------------------
