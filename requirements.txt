@@ -9,4 +9,4 @@ pyvista
 pytest
 dtcc_core
 git+https://github.com/dtcc-platform/dtcc.git#egg=dtcc
-git+https://github.com/dtcc-platform/dtcc-core.git#egg=dtcc_core
+dtcc-core @ git+https://github.com/dtcc-platform/dtcc-core.git@develop
