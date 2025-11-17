@@ -1,0 +1,109 @@
+cache
+dtcc
+dtcc-core
+
+*.obj
+*.vtk
+*.msh
+*.csv
+
+!assets/*.png
+!assets/*.vtk
+
+# ----------------------------------------------------------------------
+# Python
+# ----------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Installed packages
+pip-wheel-metadata/
+*.egg-info/
+.eggs/
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.pyd
+*.dll
+*.dylib
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.cache/
+.coverage
+.coverage.*
+.pytest_cache/
+pytestdebug.log
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# ----------------------------------------------------------------------
+# Build / distribution artifacts
+# ----------------------------------------------------------------------
+build/
+dist/
+wheels/
+sdist/
+*.egg
+MANIFEST
+
+# C/C++ build / pybind11 / scikit-build-core / cmake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+build*/          # cmake default build dirs (build, build-debug, build-release)
+_compile/
+*.o
+*.obj
+*.a
+*.lib
+*.exp
+*.manifest
+*.ilk
+*.pdb
+
+# Generated python bindings
+*_pb2.py
+*_pb2.pyi
+*_pb2_grpc.py
+
+# ----------------------------------------------------------------------
+# Editor / IDE specific
+# ----------------------------------------------------------------------
+# VS Code
+.vscode/
+# JetBrains
+.idea/
+# Vim
+*.swp
+*.swo
+
+# ----------------------------------------------------------------------
+# OS files
+# ----------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------------------------------------------------------
+# Logs
+# ----------------------------------------------------------------------
+*.log
+
+# ----------------------------------------------------------------------
+# Optional: Ignore all PNGs except a specific asset
+# (example for your case)
+# ----------------------------------------------------------------------
+*.png
+!assets/
+!assets/map.png

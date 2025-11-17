@@ -1,0 +1,12 @@
+geopandas
+networkx
+numpy
+osmnx
+pandas
+pyproj
+shapely
+pyvista
+pytest
+dtcc_core
+git+https://github.com/dtcc-platform/dtcc.git#egg=dtcc
+git+https://github.com/dtcc-platform/dtcc-core.git#egg=dtcc_core
